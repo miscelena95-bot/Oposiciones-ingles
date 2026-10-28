@@ -1,0 +1,120 @@
+{
+  "id": "madrid-2025",
+  "nombre": "Comunidad de Madrid – Criterios 2025",
+  "especialidad": { "codigo": "0590-011", "nombre": "Inglés" },
+  "fuente": "Criterios para la Evaluación y Calificación de las pruebas selectivas 2025 – 0590-011 Inglés, Comunidad de Madrid. Verificar contra los criterios de la próxima convocatoria cuando se publiquen.",
+  "temario": "ingles-0590-011",
+  "idioma_examen": "en",
+  "estilo_citas": "MLA",
+
+  "penalizaciones": {
+    "ortografia": {
+      "descripcion": "Error de escritura/ortografía que muestra desconocimiento del léxico (p. ej. \"writting\")",
+      "puntos": 0.1
+    },
+    "gramatical_leve": {
+      "descripcion": "Error gramatical que NO impide la comprensión (p. ej. \"listen the radio\", \"go to home\", \"I don't mind go\")",
+      "puntos": 0.25
+    },
+    "gramatical_grave": {
+      "descripcion": "Error gramatical que impide la comprensión",
+      "efecto": "anula_fragmento",
+      "nota_efecto": "Decisión de la usuaria: en el tema se anula solo la frase que contiene el error; se corrige como si no estuviera escrita."
+    },
+    "repetido_misma_palabra_cuenta_una_vez": true,
+    "repeticion_aplica_a": ["ortografia", "gramatical_leve"],
+    "se_aplican_sobre": "nota_final_de_cada_parte",
+    "nota_minima_tras_penalizaciones": 0,
+    "compatibles_con_bloque_expresion": true
+  },
+
+  "no_calificable": [
+    { "id": "ilegible", "descripcion": "Ejercicio ilegible" },
+    { "id": "todo_mayusculas", "descripcion": "Ejercicio escrito íntegramente en mayúsculas" }
+  ],
+
+  "primera_prueba": {
+    "ponderacion": { "parte_a": 0.7, "parte_b": 0.3 },
+    "nota_minima_total": 5,
+    "nota_minima_cada_parte_antes_de_ponderar": 2.5,
+
+    "parte_a": {
+      "nombre": "Prueba práctica",
+      "nota_maxima": 10,
+      "duracion_maxima_min": 180,
+      "ejercicios": [
+        {
+          "id": "listening",
+          "nombre": "Comprensión oral",
+          "duracion_maxima_min": 45,
+          "peso": 3,
+          "reproducciones_audio": 2,
+          "pausa_entre_reproducciones": true
+        },
+        {
+          "id": "comentario",
+          "nombre": "Comentario de texto",
+          "duracion_min": 75,
+          "peso": 4.5
+        },
+        {
+          "id": "traduccion",
+          "nombre": "Traducción (directa + inversa)",
+          "duracion_min": 60,
+          "peso": 2.5,
+          "partes": [
+            { "id": "directa", "nombre": "Traducción directa", "peso": 1.25, "palabras_aprox": 150 },
+            { "id": "inversa", "nombre": "Traducción inversa", "peso": 1.25, "palabras_aprox": 150 }
+          ],
+          "diccionario": false
+        }
+      ]
+    },
+
+    "parte_b": {
+      "nombre": "Desarrollo de un tema",
+      "nota_maxima": 10,
+      "duracion_min": 120,
+      "bolas_extraidas": 4,
+      "temas_a_elegir": 1,
+      "rubrica": [
+        {
+          "id": "estructura",
+          "nombre": "Estructura del tema",
+          "puntos_maximos": 1,
+          "indicadores": [
+            { "id": "indice", "texto": "Índice adecuado y secuenciado" },
+            { "id": "introduccion", "texto": "Introducción con justificación e importancia del tema" },
+            { "id": "apartados", "texto": "Desarrolla todos los apartados del título e índice" },
+            { "id": "conclusion", "texto": "Conclusión que relaciona los apartados" },
+            { "id": "bibliografia", "texto": "Fuentes bibliográficas variadas y actualizadas" }
+          ]
+        },
+        {
+          "id": "expresion",
+          "nombre": "Expresión y presentación",
+          "puntos_maximos": 1,
+          "indicadores": [
+            { "id": "correccion", "texto": "Expresión correcta ortográfica y gramaticalmente, fluidez" },
+            { "id": "limpieza", "texto": "Documento limpio y claro" },
+            { "id": "originalidad", "texto": "Elaboración personal y original" }
+          ]
+        },
+        {
+          "id": "contenidos",
+          "nombre": "Contenidos específicos",
+          "puntos_maximos": 8,
+          "indicadores": [
+            { "id": "profundidad", "texto": "Profundidad y actualización de los contenidos" },
+            { "id": "autores", "texto": "Cita autores, escuelas lingüísticas o corrientes metodológicas" },
+            { "id": "valoracion_critica", "texto": "Valoración crítica fundamentada" },
+            { "id": "ejemplos", "texto": "Ejemplos, esquemas, gráficos" },
+            { "id": "secuencia", "texto": "Secuencia lógica con conclusión" },
+            { "id": "lenguaje_tecnico", "texto": "Lenguaje técnico correcto" },
+            { "id": "practica_docente", "texto": "Relación con la práctica docente y aplicación en el aula" }
+          ]
+        }
+      ]
+    }
+  }
+}

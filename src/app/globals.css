@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --fondo: #f6f6f4;
+  --superficie: #ffffff;
+  --texto: #1c1c1a;
+  --suave: #6b6b66;
+  --borde: #e2e2dd;
+  --acento: #2f5bd3;
+  --acento-texto: #ffffff;
+  --aviso-fondo: #fdf1dc;
+  --aviso-texto: #8a5a00;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --fondo: #151514;
+    --superficie: #1f1f1d;
+    --texto: #ececea;
+    --suave: #a2a29c;
+    --borde: #33332f;
+    --acento: #6f93ff;
+    --acento-texto: #0d0d0c;
+    --aviso-fondo: #3a2e14;
+    --aviso-texto: #f2c46d;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+a { color: inherit; }
+
+.campo {
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  font-size: 16px; /* evita el zoom automático del iPhone */
+}
+
+.boton {
+  background: var(--acento);
+  color: var(--acento-texto);
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+}
+.boton:disabled { opacity: 0.6; }
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  border-radius: 0.75rem;
+  padding: 1rem;
 }

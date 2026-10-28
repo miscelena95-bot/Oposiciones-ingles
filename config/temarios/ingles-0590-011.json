@@ -1,0 +1,283 @@
+{
+  "id": "ingles-0590-011",
+  "especialidad": "Inglés (0590-011)",
+  "fuente": "Temario oficial de Inglés, Cuerpo de Profesores de Enseñanza Secundaria (archivo Temario_Ingles_Secundaria.docx aportado por la usuaria)",
+  "temas": [
+    {
+      "numero": 1,
+      "titulo": "Evolución de la didáctica de las lenguas. Tendencias actuales de la didáctica del inglés lengua extranjera. Los enfoques comunicativos."
+    },
+    {
+      "numero": 2,
+      "titulo": "Teorías generales sobre el aprendizaje y la adquisición de una lengua extranjera. El concepto de interlengua. El tratamiento del error."
+    },
+    {
+      "numero": 3,
+      "titulo": "El proceso de comunicación. Funciones del lenguaje. La lengua en uso. La negociación del significado."
+    },
+    {
+      "numero": 4,
+      "titulo": "La competencia comunicativa. Análisis de sus componentes."
+    },
+    {
+      "numero": 5,
+      "titulo": "La comunicación oral. Elementos y normas que rigen el discurso oral. Rutinas y fórmulas habituales. Estrategias propias de la comunicación oral."
+    },
+    {
+      "numero": 6,
+      "titulo": "La comunicación escrita. Distintos tipos de textos escritos. Estructura y elementos formales. Normas que rigen el texto escrito. Rutinas y fórmulas."
+    },
+    {
+      "numero": 7,
+      "titulo": "Sistema fonológico de la lengua inglesa I: Las vocales. Símbolos fonéticos. Formas fuertes y formas débiles. Los diptongos. Símbolos fonéticos. Comparación con el sistema fonológico de la lengua o lenguas oficiales de la Comunidad Autónoma correspondiente."
+    },
+    {
+      "numero": 8,
+      "titulo": "Sistema fonológico de la lengua inglesa II: Las consonantes. Símbolos fonéticos. Comparación con el sistema fonológico de la lengua o lenguas oficiales de la Comunidad Autónoma correspondiente."
+    },
+    {
+      "numero": 9,
+      "titulo": "Sistema fonológico de la lengua inglesa III: Acento, ritmo y entonación. Comparación con el sistema fonológico de la lengua o lenguas oficiales de la Comunidad Autónoma correspondiente."
+    },
+    {
+      "numero": 10,
+      "titulo": "Léxico. Características de la formación de palabras en inglés. Prefijación, sufijación y composición."
+    },
+    {
+      "numero": 11,
+      "titulo": "La palabra como signo lingüístico. Homonimia. Sinonimia. Antonimia. “False friends”. Creatividad léxica."
+    },
+    {
+      "numero": 12,
+      "titulo": "Concepto de gramática: Reflexión sobre la lengua y su aprendizaje. De la gramática normativa a la gramática en función del uso de la lengua y de la comunicación."
+    },
+    {
+      "numero": 13,
+      "titulo": "Expresión de la cantidad."
+    },
+    {
+      "numero": 14,
+      "titulo": "Expresión de la cualidad. Expresión de grado y comparación."
+    },
+    {
+      "numero": 15,
+      "titulo": "Expresión del modo, los medios y el instrumento."
+    },
+    {
+      "numero": 16,
+      "titulo": "Expresión de la posesión."
+    },
+    {
+      "numero": 17,
+      "titulo": "La localización en el espacio: Lugar, dirección y distancia."
+    },
+    {
+      "numero": 18,
+      "titulo": "La localización en el tiempo: Relaciones temporales. Frecuencia."
+    },
+    {
+      "numero": 19,
+      "titulo": "Tiempo real y tiempo verbal. Aspecto y modo."
+    },
+    {
+      "numero": 20,
+      "titulo": "Los verbos auxiliares y modales: Formas y funciones."
+    },
+    {
+      "numero": 21,
+      "titulo": "El infinitivo y la forma en -ing: sus usos."
+    },
+    {
+      "numero": 22,
+      "titulo": "“Multi-word verbs”."
+    },
+    {
+      "numero": 23,
+      "titulo": "Estructura de la oración en inglés: Afirmaciones, preguntas, negaciones y exclamaciones."
+    },
+    {
+      "numero": 24,
+      "titulo": "Expresión de la aserción, el énfasis y la objeción."
+    },
+    {
+      "numero": 25,
+      "titulo": "Relaciones de causa, consecuencia y finalidad."
+    },
+    {
+      "numero": 26,
+      "titulo": "Expresión de la duda, condición, hipótesis y contraste."
+    },
+    {
+      "numero": 27,
+      "titulo": "La voz pasiva. Formas y funciones."
+    },
+    {
+      "numero": 28,
+      "titulo": "Macrofunciones lingüísticas para expresar las intenciones comunicativas más habituales: Entablar y mantener relaciones sociales, dar y pedir información sobre objetos, personas y acciones, expresar actitudes intelectuales y emocionales."
+    },
+    {
+      "numero": 29,
+      "titulo": "Análisis y articulación del discurso. Cohesión y coherencia. Anáfora y Catáfora. Los conectores. Deixis."
+    },
+    {
+      "numero": 30,
+      "titulo": "El discurso directo y el discurso indirecto."
+    },
+    {
+      "numero": 31,
+      "titulo": "Texto y contexto. Tipos de texto. Criterios para la clasificación textual. El registro."
+    },
+    {
+      "numero": 32,
+      "titulo": "El texto narrativo. Estructura y características."
+    },
+    {
+      "numero": 33,
+      "titulo": "El texto descriptivo. Estructura y características."
+    },
+    {
+      "numero": 34,
+      "titulo": "El texto argumentativo. Estructura y características."
+    },
+    {
+      "numero": 35,
+      "titulo": "El texto explicativo. Estructura y características."
+    },
+    {
+      "numero": 36,
+      "titulo": "Los textos dialógicos. Estructura y características."
+    },
+    {
+      "numero": 37,
+      "titulo": "El lenguaje literario. Los géneros literarios. La crítica literaria."
+    },
+    {
+      "numero": 38,
+      "titulo": "El inglés científico y tecnológico, comercial y administrativo."
+    },
+    {
+      "numero": 39,
+      "titulo": "Estrategias de análisis del texto."
+    },
+    {
+      "numero": 40,
+      "titulo": "Estrategias de comunicación. Definición y tipología."
+    },
+    {
+      "numero": 41,
+      "titulo": "La romanización. Influencia del latín en la lengua inglesa. Préstamos y calcos."
+    },
+    {
+      "numero": 42,
+      "titulo": "La conquista normanda. Influencia del francés en la lengua inglesa. Préstamos y calcos."
+    },
+    {
+      "numero": 43,
+      "titulo": "La literatura medieval de transmisión oral: La leyenda Artúrica. G. Chaucer: Los Cuentos de Canterbury."
+    },
+    {
+      "numero": 44,
+      "titulo": "Shakespeare y su época. Obras más representativas."
+    },
+    {
+      "numero": 45,
+      "titulo": "Gran Bretaña en el siglo XVIII: Desarrollo socioeconómico y articulación política: la actividad cultural y técnica. Grandes novelistas de la época."
+    },
+    {
+      "numero": 46,
+      "titulo": "La configuración histórica de los Estados Unidos de América: De la independendia a la guerra de secesión. Novelas de referencia: The Scarlet Letter, The Red Badge of Courage."
+    },
+    {
+      "numero": 47,
+      "titulo": "La revolución industrial inglesa: su influencia como modelo de transformación histórica. Los cambios sociales y políticos a través de la literatura de la época. C. Dickens."
+    },
+    {
+      "numero": 48,
+      "titulo": "El Romanticismo en Gran Bretaña: Novela y poesía."
+    },
+    {
+      "numero": 49,
+      "titulo": "Construcción y administración del Imperio colonial británico en los siglos XVIII y XIX. J. Conrad y R. Kipling."
+    },
+    {
+      "numero": 50,
+      "titulo": "La novela victoriana."
+    },
+    {
+      "numero": 51,
+      "titulo": "O. Wilde y B. Shaw."
+    },
+    {
+      "numero": 52,
+      "titulo": "La evolución histórica de Estados Unidos: de A. Lincoln a F.D. Roosevelt."
+    },
+    {
+      "numero": 53,
+      "titulo": "La novela, el cuento y la poesía en Estados Unidos: H. Melville, E.A. Poe y W. Whitman."
+    },
+    {
+      "numero": 54,
+      "titulo": "El humorismo: M. Twain, H. James y el cosmopolitismo."
+    },
+    {
+      "numero": 55,
+      "titulo": "La generación perdida: S. Fitzgerald, J. Steinbeck y E. Hemingway. La narrativa de W. Faulkner."
+    },
+    {
+      "numero": 56,
+      "titulo": "Relaciones históricas entre Irlanda y Gran Bretaña. Autores irlandeses: S. O’Casey y J. Joyce."
+    },
+    {
+      "numero": 57,
+      "titulo": "El Reino Unido en el período de entreguerras y durante la segunda guerra mundial. Autores literarios representativos."
+    },
+    {
+      "numero": 58,
+      "titulo": "Evolución política, social y económica del Reino Unido e Irlanda desde 1945. Su presencia en la Comunidad Europea. Panorama literario de este período en estos países."
+    },
+    {
+      "numero": 59,
+      "titulo": "Evolución política, social y económica de Estados Unidos desde 1945. Su significación en la política internacional. Panorama literario actual en los Estados Unidos."
+    },
+    {
+      "numero": 60,
+      "titulo": "La novela negra norteamericana: D. Hammett y R. Chandler. La novela detectivesca inglesa. F.D. James."
+    },
+    {
+      "numero": 61,
+      "titulo": "La incidencia del cine en la difusión de la producción literaria en lengua inglesa."
+    },
+    {
+      "numero": 62,
+      "titulo": "La Commonwealth. La diversidad cultural. El desarrollo de variedades lingüísticas. Influencias y manifestaciones interculturales. Las novelas de E.M. Forster, D. Lessing y N. Gordimer."
+    },
+    {
+      "numero": 63,
+      "titulo": "Las instituciones británicas. Las Cámaras parlamentarias. El Gobierno. Los partidos políticos y el sistema electoral. La Corona."
+    },
+    {
+      "numero": 64,
+      "titulo": "Las instituciones estadounidenses. La Constitución. La organización territoral. El presidente. El Congreso. Los partidos políticos y el sistema electoral."
+    },
+    {
+      "numero": 65,
+      "titulo": "El sistema educativo en el ámbito anglosajón."
+    },
+    {
+      "numero": 66,
+      "titulo": "Dimensión cultural de la anglofonía en el mundo actual. El inglés británico y el inglés americano. Presencia de la lengua inglesa en España. Los Anglicismos."
+    },
+    {
+      "numero": 67,
+      "titulo": "Los medios de comunicación en lengua inglesa (1): El estilo periodístico. La prensa. Periódicos de calidad y periódicos sensacionalistas."
+    },
+    {
+      "numero": 68,
+      "titulo": "Los medios de comunicación en lengua inglesa (2): Radio y televisión. La publicidad en las culturas anglófonas: Aspectos lingüísticos y semiológicos."
+    },
+    {
+      "numero": 69,
+      "titulo": "Sociedad y cultura. Estereotipos y emblemas de los países de habla inglesa. La canción en lengua inglesa como vehículo de influencia cultural."
+    }
+  ]
+}
