@@ -119,13 +119,12 @@ Flujo común: la preparadora envía el *mock exam* → lo subo → lo hago en la
 ## Pendiente de definir
 - Proveedor de IA definitivo: se decidirá en el paso e transcribiendo la misma foto con Claude (Anthropic) y con Gemini de pago (Google AI Studio). La app se construye para que el proveedor sea un ajuste.
 - Fecha prevista del examen.
-- Erratas en el archivo del temario aportado (se han copiado tal cual hasta que la usuaria confirme): tema 46 "independendia", tema 64 "territoral", tema 60 "F.D. James" (¿P.D. James?).
 
 ## Decisiones tomadas
 - **Stack:** Next.js (TypeScript) + Tailwind, desplegado en Vercel (plan gratuito Hobby). Web privada usable desde iPhone (se puede añadir a la pantalla de inicio) y ordenador.
 - **Datos y archivos:** Supabase (base de datos, almacén privado de archivos y acceso con usuario/contraseña). Plan gratuito al principio (1 GB de archivos; se pausa tras 7 días sin uso); pasar a Pro (~25 $/mes) cuando haga falta espacio. Registro público desactivado: solo existe la cuenta de la usuaria.
 - **Claves:** nunca en el código. En local van en `.env.local` (ignorado por git; plantilla en `.env.example`); en producción, en Vercel → Settings → Environment Variables.
-- **Configuración:** criterios del examen en `config/convocatorias/madrid-2025.json`; convocatoria activa en `config/convocatoria-activa.json`; temario en `config/temarios/ingles-0590-011.json` (69 temas, del archivo `Temario_Ingles_Secundaria.docx` aportado). Validado con zod en `src/lib/config/`.
+- **Configuración:** criterios del examen en `config/convocatorias/madrid-2025.json`; convocatoria activa en `config/convocatoria-activa.json`; temario en `config/temarios/ingles-0590-011.json` (69 temas, del archivo `Temario_Ingles_Secundaria.docx` aportado; corregidas con su permiso tres erratas: tema 46 "independencia", tema 60 "P.D. James", tema 64 "territorial"). Validado con zod en `src/lib/config/`.
 - **Penalizaciones (respuestas de la usuaria):**
   - Error gramatical que impide la comprensión: se anula **solo la frase** (se corrige como si no estuviera escrita).
   - La nota tras penalizaciones **no baja de 0**.
